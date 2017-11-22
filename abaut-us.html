@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ENG">
+<head>
+	<title>Projrkt</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device=width, initial-scale=1">
+<!--	style-->
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" href="style/main.css" type="text/css">
+	<link href="style/animate.css" rel="stylesheet" />
+	<link href="style/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style/owl.carousel.css" rel="stylesheet" />
+	<link href="style/owl.theme.default.css" rel="stylesheet" />
+	<link href="fotorama.css" rel="stylesheet" />
+	
+<!--	skrypty-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="fotorama.js"></script>
+</head>
+<body>
+	
+	<div id="main-website">
+		<header>
+			<nav>
+				<div class="container">
+					<div class="navigation">
+						<div class="logo animated flash infinite">
+							<a href=""><img src="images/logo11.png"></a>
+						</div>
+						<div class="menu-container">
+							<ul id="main-menu">
+								<li><a href="index.html" class="first-menu"> Start</a></li>
+								<li><a href="pircing.html">Pircing</a></li>
+								<li><a href="sculpting.html">Sculpting</a></li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="abaut-us.html">Abaut Us</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="" class="first-menu"><i class="fa fa-paint-brush" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+						<div id="attach-mobile-menu">
+							
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+<!--info zdj sliderr-->
+		<div class="first-slider">
+			<ul class="bxslider" id="slider">
+				<li>
+					<div class="slider1">
+						<div class="container">
+							<div class="text-slider">
+								<h1>Pircing</h1>
+								<p>First thing what we do when we get your models</p>
+								<div class="sliderbooton"><a href="">Read More</a></div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slider2">
+						<div class="container">
+							<div class="text-slider">
+								<h1>Sculpting</h1>
+								<p>If you need a special character, conversion or something that comes to your mind- this is an option for you!</p>
+								<div class="sliderbooton"><a href="">Read More</a></div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slider3">
+						<div class="container">
+							<div class="text-slider">
+								<h1>Our Services</h1>
+								<p>Check out our different painting standards that we offer and send us an email</p>
+								<div class="sliderbooton"><a href="">Read More</a></div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+<!--o nas-->
+ <div class="photo-team">
+ </div>
+<!--footer-->
+<footer>
+	<div class="main-footer">
+		<div class="container">
+			<div class="footer-logo">
+				<a href=""><img src="images/logof1.png"></a>
+			</div>
+			<div class="menu-footer">
+				<ul class="footer-menu-list">
+					<li><a href="index.html" class="first-menu"> Start</a></li>
+					<li><a href="portfolio.html">Pircing</a></li>
+					<li><a href="sculpting.html">Sculpting</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="abaut-us.html">Abaut Us</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<ul class="socials">
+				<li><a href="https://web.facebook.com/privatebrush/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+				<li><a href="http://www.pictaram.life/user/4074269298"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="mailto:privatebrush@hotmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+			</ul>
+			<div class="footer-text">
+				<h2>PATRONAGE</h2>
+			</div>
+			<div class="patronage">
+				<a href="#"><img src="images/wg1.png"></a>	
+				<a href="#"><img src="images/greenmin.png"></a>
+			</div>
+		</div>
+	</div>
+</footer>	
+</div>
+	
+		<script>
+	$(document).ready(function(){
+		/* menu mobilne */
+		$('#main-menu').slicknav({
+			prependTo: '#attach-mobile-menu',
+			label: ''
+		});
+	});
+
+	</script>
+	<script>
+		$('#main-website').imagesLoaded(function(){
+		/* glowny slider */
+			$('#slider').bxSlider({
+				mode: 'fade',
+				auto: true,
+				controls: true,
+				pager: false
+			});
+			$('.owl-carousel').owlCarousel({
+				 loop:true,
+				 margin:10,
+				 nav:true,
+				 responsive:{
+					  0:{
+							items:1
+					  },
+					  600:{
+							items:2
+					  },
+					  1000:{
+							items:3
+					  }
+				 }
+			})
+		});
+	</script>
+</body>
+</html>
