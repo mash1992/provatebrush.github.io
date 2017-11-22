@@ -26,12 +26,7 @@
 		.column(6);
 	}
 }
-.pircing .column {
-	.column(12);
-	@media @tablet {
-		.column(6);
-	}
-}
+
 // inne elemety
 img {
 	max-width: 100%;
@@ -518,28 +513,22 @@ footer{
 }
 
 // pircing
-
 .pircing{
-	margin-top: 0;
-	.overflow-fix;
-	.text-pircing{
-		h2{
+#example{
+	width: 100%;
+	.price-text{
 		font-family: 'Anton', sans-serif;
-		padding: 15px;
-		.spacing(3px);
-		font-size: 27px;
-		color: @basic-header;
-		margin-bottom: 10px;	
-		}
+		font-size: 17px;	
+		.spacing(1px);
 	}
-	#timeline{
-		text-align: left;
-		width: 100px;
-		.inline-block;
-		.block;
-		.list-style-none;
-		#dates{
-			text-align: left;
-		}
+	#price-first{
+		font-family: 'Anton', sans-serif;
+		font-size: 17px;
+		.spacing(1px);
+	}
+}
+	.pircing-photo{
+		padding-bottom: 15px;
+		padding-top: 0px;
 	}
 }

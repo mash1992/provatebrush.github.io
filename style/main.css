@@ -236,20 +236,6 @@ a img {
     margin: 0 1.31578947%;
   }
 }
-.pircing .column {
-  display: inline;
-  float: left;
-  width: 97.36842105%;
-  margin: 0 1.31578947%;
-}
-@media only screen and (min-width: 992px) {
-  .pircing .column {
-    display: inline;
-    float: left;
-    width: 47.36842105%;
-    margin: 0 1.31578947%;
-  }
-}
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -768,27 +754,22 @@ footer .main-footer .container .patronage a {
   text-decoration: none;
   color: #434343;
 }
-.pircing {
-  margin-top: 0;
-  overflow: auto;
+.pircing #example {
+  width: 100%;
 }
-.pircing .text-pircing h2 {
+.pircing #example .price-text {
   font-family: 'Anton', sans-serif;
-  padding: 15px;
-  letter-spacing: 3px;
-  font-size: 27px;
-  color: #434343;
-  margin-bottom: 10px;
+  font-size: 17px;
+  letter-spacing: 1px;
 }
-.pircing #timeline {
-  text-align: left;
-  width: 100px;
-  display: inline-block;
-  display: block;
-  list-style-type: none;
+.pircing #example #price-first {
+  font-family: 'Anton', sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
 }
-.pircing #timeline #dates {
-  text-align: left;
+.pircing .pircing-photo {
+  padding-bottom: 15px;
+  padding-top: 0px;
 }
 /*
     Mobile Menu Core Style

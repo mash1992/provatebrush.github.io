@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="style/main.css" type="text/css">
 	<link href="style/animate.css" rel="stylesheet" />
 	<link href="style/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style/jquery.timeliny.css" rel="stylesheet" />
 
 	
 <!--	skrypty-->
@@ -20,7 +21,7 @@
 	<script src="js/jquery.slicknav.min.js"></script>
 	<script src="js/jquery.bxslider.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
-	<script src="js/data-albe-timeline.js"></script>
+	<script src="js/jquery.timeliny.js"></script>
 	
 </head>
 <body>
@@ -91,26 +92,28 @@
 		</div>
 <!--picing-->
 <div class="pircing">
-	<div class="container">
-		<div id="timeline">
-   <ul id="dates">
-      <li><a href="#">date1</a></li>
-      <li><a href="#">date2</a></li>
-   </ul>
-   <ul id="issues">
-      <li id="date1">
-         <p>Lorem ipsum.</p>
-      </li>
-      <li id="date2">
-         <p>Lorem ipsum.</p>
-      </li>
-   </ul>
-   <a href="#" id="next">+</a> <!-- optional -->
-   <a href="#" id="prev">-</a> <!-- optional -->
+<div class="container">
+	<div id="example">
+  <div id="price-first" data-year="3€/4€" class="active">
+	FLAMES OF WAR. 
+  	Standard Basing, assembly included into the Prices 
+  	TT level/ TT+ 
+  	Infantry/crew figures(single color uniforms)
+  </div>
+  <div class="price-text" data-year="7€">
+  	By Fire and Sword- pricing includes assembling, painting and standard basing.
+  	Standard Cover box level
+  	Infantry base/light canon
+  </div>
+  <div class="price-text" data-year="12€">Medium artillery base</div>
+  <div class="price-text" data-year="14€">Horse base</div>
+  <div class="price-text" data-year="20€">Winged hussars, Silahdars, Deli base</div>
 </div>
-	</div>
+<div class="pircing-photo">
+	<img src="images/pircingfoto.png">
 </div>
-
+</div>
+</div>
 <!--footer-->
 <footer>
 	<div class="main-footer">
@@ -168,9 +171,35 @@
 		});
 	</script>
 	<script>
-	$(function(){
-   	$().timelinr();
-		});
+$('#example').timeliny({
+
+  // or 'desc'
+  order: 'asc',
+
+  // classname for the timeline
+  className: 'timeliny',
+
+  // timeline wrapper
+  wrapper: '<div class="timeliny-wrapper"></div>',
+
+  // boundaries
+  boundaries: 2,
+
+  // animation speed in ms
+  animationSpeed: 250,
+
+  // hides blank years
+  hideBlankYears: true,
+
+  // callbacks
+  onInit: function(currYear) {},
+  onDestroy: function() {},
+  afterLoad: function(currYear) {},
+  onLeave: function(currYear, nextYear) {},
+  afterChange: function(currYear) {},
+  afterResize: function() {}
+
+});
 	</script>
 </body>
 </html>
