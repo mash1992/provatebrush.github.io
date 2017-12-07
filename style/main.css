@@ -938,18 +938,18 @@ footer .main-footer .container .patronage a {
   padding-bottom: 15px;
   font-size: 20px;
 }
-._pattern-overlay {
+.pattern-overlay {
   padding-top: 20px;
   z-index: 1;
   font-family: 'Anton', sans-serif;
 }
 @media only screen and (min-width: 992px) {
-  ._pattern-overlay {
+  .pattern-overlay {
     padding-top: 115px;
     padding-bottom: 115px;
   }
 }
-._pattern-overlay h2 {
+.pattern-overlay h2 {
   position: relative;
   color: #EFEFEF;
   font-size: 26px;
@@ -960,13 +960,13 @@ footer .main-footer .container .patronage a {
   z-index: 2;
 }
 @media only screen and (min-width: 992px) {
-  ._pattern-overlay h2 {
+  .pattern-overlay h2 {
     font-size: 48px;
     line-height: 60px;
     text-align: left;
   }
 }
-._pattern-overlay .button {
+.pattern-overlay .button {
   margin-top: 20px;
   background-color: #D5D3D3;
   border: none;
