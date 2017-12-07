@@ -149,10 +149,10 @@
 		<a href="portfolio.html" class="button">Check This !</a>
 	</div>
 	</div>
-	<div id="_buffering-background">
+	<div id="buffering-background">
 	</div>
-	<div id="_youtube-iframe-wrapper">
-		<div id="_youtube-iframe" data-youtubeurl="hAwnTzohhjI">
+	<div id="youtube-iframe-wrapper">
+		<div id="youtube-iframe" data-youtubeurl="hAwnTzohhjI">
 			
 		</div>
 	</div>
@@ -169,10 +169,10 @@
 	// 3. This function creates an <iframe> (and YouTube player)
 	//    after the API code downloads.
 	var youtubePlayer;
-	var _youtube_id = document.getElementById('_youtube-iframe');
+	var _youtube_id = document.getElementById('youtube-iframe');
 	
 	function onYouTubeIframeAPIReady() {				
-		youtubePlayer = new YT.Player('_youtube-iframe', {
+		youtubePlayer = new YT.Player('youtube-iframe', {
 			videoId: _youtube_id.dataset.youtubeurl,
 			playerVars: { // https://developers.google.com/youtube/player_parameters?playerVersion=HTML5
 				cc_load_policy: 0, // closed caption
@@ -198,7 +198,7 @@
 
 	function onYoutubePlayerStateChange(event) {
 		if (event.data == YT.PlayerState.PLAYING) { // fade out #_buffering-background
-			Velocity(document.getElementById('_buffering-background'), { opacity: 0 }, 500);
+			Velocity(document.getElementById('buffering-background'), { opacity: 0 }, 500);
 		}
 		
 		if (event.data == YT.PlayerState.ENDED) { // loop video

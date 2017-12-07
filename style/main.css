@@ -1013,7 +1013,7 @@ footer .main-footer .container .patronage a {
   height: 100%;
   background: none repeat 0 0 rgba(40, 40, 40, 0.6);
 }
-.fullscreen-video-background ._pattern-overlay {
+.fullscreen-video-background .pattern-overlay {
   position: absolute;
   top: 0;
   width: 100%;
@@ -1022,7 +1022,7 @@ footer .main-footer .container .patronage a {
   background-image: url(https://cdnjs.cloudflare.com/ajax/libs/vegas/2.3.1/overlays/03.png);
   z-index: 2;
 }
-.fullscreen-video-background #_buffering-background {
+.fullscreen-video-background #buffering-background {
   position: absolute;
   width: 100%;
   top: 0;
@@ -1030,7 +1030,7 @@ footer .main-footer .container .patronage a {
   background: #222;
   z-index: 1;
 }
-.fullscreen-video-background #_youtube-iframe-wrapper {
+.fullscreen-video-background #youtube-iframe-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1044,7 +1044,7 @@ footer .main-footer .container .patronage a {
   position: absolute;
   height: 100%;
 }
-.fullscreen-video-background #_youtube-iframe-wrapper #_youtube-iframe {
+.fullscreen-video-background #youtube-iframe-wrapper #youtube-iframe {
   position: absolute;
   pointer-events: none;
   margin: 0 auto;
