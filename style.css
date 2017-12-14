@@ -1,15 +1,10 @@
-body {
-	background-color:#f3f3f3; /* ustawiamy kolor tła naszej strony */
-	font-family: Arial, Helvetica, sans-serif; /* ustawiamy rodzine czcionki z której korzystamy */
-}
+
 
 #formularz {
         width:260px; /* ustawiamy szerokość formularza */
         margin:0 auto; /* jeżeli nasz formularz ma ustawioną szerokość wyśrodkowujemy go */
-        background-color:#fff; /* dodajemy kolor tła naszemu formularzowi */
-        border:2px solid #ccc; /* dodajemy obramowanie o szerokości 2px */
         border-radius:10px; /* zaokrąglamy tło naszego formularza */
-		padding:20px; /* dodajemy margines wewnątrz naszego formularza */
+			padding:20px; /* dodajemy margines wewnątrz naszego formularza */
         margin-top:20px; /* dodajemy margines górny naszego formularza */
 }
 
