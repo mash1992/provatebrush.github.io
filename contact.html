@@ -16,6 +16,7 @@
 	<link href="style/owl.carousel.css" rel="stylesheet" />
 	<link href="style/owl.theme.default.css" rel="stylesheet" />
 	<link href="fotorama.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	
 <!--	skrypty-->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -37,10 +38,10 @@
 						</div>
 						<div class="menu-container">
 							<ul id="main-menu">
-								<li><a href="index.html" class="first-menu"> Start</a></li>
-								<li><a href="pircing.html">Pircing</a></li>
+								<li><a href="index.html" class="first-menu"> Home</a></li>
+								<li><a href="pircing.html">Pricing</a></li>
 								<li><a href="sculpting.html">Sculpting</a></li>
-								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="portfolio.html">Gallery</a></li>
 								<li><a href="abaut-us.html">Abaut Us</a></li>
 								<li><a href="contact.html">Contact</a></li>
 								<li><a href="" class="first-menu"><i class="fa fa-paint-brush" aria-hidden="true"></i></a></li>
@@ -60,8 +61,7 @@
 					<div class="slider1">
 						<div class="container">
 							<div class="text-slider">
-								<h1>Pircing</h1>
-								<p>First thing what we do when we get your models</p>
+								<h1>Pricing</h1>
 								<div class="sliderbooton"><a href="pircing.html">Read More</a></div>
 							</div>
 						</div>
@@ -72,7 +72,6 @@
 						<div class="container">
 							<div class="text-slider">
 								<h1>Sculpting</h1>
-								<p>If you need a special character, conversion or something that comes to your mind- this is an option for you!</p>
 								<div class="sliderbooton"><a href="sculpting.html">Read More</a></div>
 							</div>
 						</div>
@@ -83,7 +82,6 @@
 						<div class="container">
 							<div class="text-slider">
 								<h1>Our Services</h1>
-								<p>Check out our different painting standards that we offer and send us an email</p>
 								<div class="sliderbooton"><a href="portfolio.html">Read More</a></div>
 							</div>
 						</div>
@@ -96,7 +94,17 @@
 	<div class="container">
 		<div class="column">
 			<div class="contact-image">
-				<img src="images/podlisder.png">
+				<div id="formularz">
+				<form method="post" action="kontakt.php">
+					 <label>Imię i nazwisko</label>
+					 <input name="name" placeholder="Jan Kowalski">
+					 <label>Email</label>
+					 <input name="email" type="email" placeholder="biuro@79level.pl">
+					 <label>Wiadomość</label>
+					 <textarea name="message" placeholder="Napisz tu wiadomość"></textarea>
+					 <input id="submit" name="submit" type="submit" value="Wyślij">
+				</form>
+				</div> 
 			</div>
 		</div>
 		<div class="column">
@@ -127,10 +135,10 @@
 			</div>
 			<div class="menu-footer">
 				<ul class="footer-menu-list">
-					<li><a href="index.html" class="first-menu"> Start</a></li>
-					<li><a href=portfolio.html"">Pircing</a></li>
+					<li><a href="index.html" class="first-menu"> Home</a></li>
+					<li><a href="portfolio.html">Pricing</a></li>
 					<li><a href="sculpting.html">Sculpting</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="portfolio.html">Gallery</a></li>
 					<li><a href="abaut-us.html">Abaut Us</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
@@ -142,7 +150,7 @@
 				<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 			</ul>
 			<div class="footer-text">
-				<h2>PATRONAGE</h2>
+				<h2>We're cooperating with</h2>
 			</div>
 			<div class="patronage">
 				<a href="#"><img src="images/wg1.png"></a>	
