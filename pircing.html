@@ -5,24 +5,31 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device=width, initial-scale=1">
 <!--	style-->
+	<link rel="stylesheet" href="style/main.css" type="text/css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,400i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-	<link rel="stylesheet" href="style/main.css" type="text/css">
+
 	<link href="style/animate.css" rel="stylesheet" />
 	<link href="style/jquery.bxslider.css" rel="stylesheet" />
-	<link href="style/jquery.timeliny.css" rel="stylesheet" />
 
-	
-<!--	skrypty-->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script src="js/jquery.bxslider.min.js"></script>
-	<script src="js/imagesloaded.pkgd.min.js"></script>
-	<script src="js/jquery.timeliny.js"></script>
-	
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-table.min.css">
+
+	<!--	skrypty-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-table.min.js"></script>
+
+
+
+
 </head>
 <body>
 	
@@ -39,7 +46,7 @@
 								<li><a href="index.html" class="first-menu"> Home</a></li>
 								<li><a href="pircing.html">Pircing</a></li>
 								<li><a href="sculpting.html">Sculpting</a></li>
-								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="portfolio.html">Gallery</a></li>
 								<li><a href="abaut-us.html">Abaut Us</a></li>
 								<li><a href="contact.html">Contact</a></li>
 								<li><a href="" class="first-menu"><i class="fa fa-paint-brush" aria-hidden="true"></i></a></li>
@@ -90,22 +97,190 @@
 <!--picing-->
 <div class="pircing">
 <div class="container">
-	<div id="example">
-  <div id="price-first" data-year="3€/4€" class="active">
-	FLAMES OF WAR. 
-  	Standard Basing, assembly included into the Prices 
-  	TT level/ TT+ 
-  	Infantry/crew figures(single color uniforms)
-  </div>
-  <div class="price-text" data-year="7€">
-  	By Fire and Sword- pricing includes assembling, painting and standard basing.
-  	Standard Cover box level
-  	Infantry base/light canon
-  </div>
-  <div class="price-text" data-year="12€">Medium artillery base</div>
-  <div class="price-text" data-year="14€">Horse base</div>
-  <div class="price-text" data-year="20€">Winged hussars, Silahdars, Deli base</div>
-</div>
+
+   <h4 class="text-center">Pricing Price</h4>
+    <table class="tab-text" id="example" data-toggle="table" data-search="true" >
+        <thead>
+            <tr>
+                <th data-filed="Opis" data-sortable="true">Description of the item</th>
+                <th data-filed="Cena" data-sortable="true">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tab-color" colspan="2">Ogniem i mieczem /by fire and sword</td>
+            </tr> 
+               <tr>
+                <td class="tab-color" colspan="2">Level 1</td>
+            </tr>           
+                <tr>
+                <td>Foot infantry base (3 miniatures)</td>
+                <td>3 €</td>
+            </tr>            <tr>
+                <td>Scout base (2 miniatures)</td>
+                <td>2 €</td>
+            </tr>            <tr>
+                <td>Mounted cavalry base </td>
+                <td>7 €</td>
+            </tr>            <tr>
+                <td>Winged hussars,silahdars, deli, sipahi</td>
+                <td>10 €</td>
+            </tr>            <tr>
+                <td>Wagoons</td>
+                <td>10 €</td>
+            </tr>            <tr>
+                <td>General command base</td>
+                <td>8 €</td>
+            </tr>            <tr>
+                <td>Medium artillery</td>
+                <td>5 €</td>
+            </tr>            <tr>
+                <td>Light artillery base</td>
+                <td>4 €</td>
+            </tr>            <tr>
+               <td class="tab-color" colspan="2">Level 2</td>
+            </tr>            <tr>
+                <td>Foot infantry base(3 miniatures)</td>
+                <td>6 €</td>
+            </tr>            <tr>
+                <td>Scout base (2 miniatures)</td>
+                <td>4 €</td>
+            </tr>            <tr>
+                <td>Winged hussars,silahdars, deli, sipahi</td>
+            <td>15 €</td>
+            </tr><tr>
+                <td>Mounted cavalry base</td>
+                <td>12 €</td>
+            </tr><tr>
+                <td>Wagoons</td>
+                <td>14 €</td>
+            </tr><tr>
+                <td>General command base</td>
+                <td>12 €</td>
+            </tr><tr>
+                <td>Medium artillery</td>
+                <td>10 €</td>
+            </tr><tr>
+                <td>Light artillery base</td>
+                <td>7 €</td>
+            </tr>
+                <tr>
+               <td class="tab-color" colspan="2">Level 3</td>
+            </tr>
+               <tr>
+                <td>Foot infantry base(3 miniatures)</td>
+                <td>10 €</td>
+            </tr><tr>
+                <td>Scout base (2 miniatures)</td>
+                <td>7 €</td>
+            </tr><tr>
+                <td>Mounted cavalry base</td>
+                <td>17 €</td>
+            </tr><tr>
+                <td>Winged hussars,silahdars, deli, sipahi</td>
+                <td>20 €</td>
+            </tr><tr>
+                <td>Wagoons</td>
+                <td>17 €</td>
+            </tr><tr>
+                <td>General command base</td>
+                <td>18 €</td>
+            </tr><tr>
+                <td>Medium artillery</td>
+                <td>12 €</td>
+            </tr><tr>
+                <td>Light artillery base 9€</td>
+                <td>9 €</td>
+            </tr>
+               <tr>
+               <td class="tab-color" colspan="2">Flames of war</td>
+            </tr>  
+              <tr>
+               <td class="tab-color" colspan="2">level 1/ level 2</td>
+            </tr>
+               <tr>
+                <td>Infantry miniature</td>
+                <td>1,5-3 €</td>
+            </tr><tr>
+                <td>infantry miniature  with camouflage</td>
+                <td>2-4 €</td>
+            </tr><tr>
+                <td>Small vehicles</td>
+                <td>6-8 €</td>
+            </tr><tr>
+                <td>Medium vehicles</td>
+                <td>8-10 €</td>
+            </tr><tr>
+                <td>Medium tanks</td>
+                <td>10-13 €</td>
+            </tr><tr>
+                <td>Big tanks</td>
+                <td>12-15 €</td>
+            </tr><tr>
+                <td>Artillery guns</td>
+                <td>3-6 €</td>
+            </tr><tr>
+                <td>Motorcycles</td>
+                <td>5-8 €</td>
+            </tr>
+                <tr>
+               <td class="tab-color" colspan="2">28 mm miniatures</td>
+            </tr>  
+              <tr>
+               <td class="tab-color" colspan="2">Level 1</td>
+            </tr>
+               <tr>
+                <td>Small Infantry</td>
+                <td>6-8 €</td>
+            </tr><tr>
+                <td>Infantry</td>
+                <td>8-14 €</td>
+            </tr><tr>
+                <td>Large Infantry</td>
+                <td>14-17 €</td>
+            </tr><tr>
+                <td>monsters</td>
+                <td>20-35 €</td>
+            </tr><tr>
+                <td>Heros</td>
+                <td>28+ €</td>
+            </tr><tr>
+                <td>Vehicles</td>
+                <td>40+ €</td>
+            </tr><tr>
+                <td>large monsters ,vehicles</td>
+                <td>60+ €</td>
+            </tr>
+             <tr>
+               <td class="tab-color" colspan="2">Level 2</td>
+            </tr>
+               <tr>
+                <td>Small Infantry</td>
+                <td>10- 13€</td>
+            </tr><tr>
+                <td>Infantry</td>
+                <td>15-23 €</td>
+            </tr><tr>
+                <td>Large Infantry</td>
+                <td>20-35 €</td>
+            </tr><tr>
+                <td>Monsters</td>
+                <td>40-60 €</td>
+            </tr><tr>
+                <td>Heros</td>
+                <td>45+ €</td>
+            </tr><tr>
+                <td>Vehicles</td>
+                <td>55+ €</td>
+            </tr>
+               <tr>
+                <td>Large monsters ,vehicles</td>
+                <td>80+ €</td>
+            </tr>
+        </tbody>
+    </table>
+
+
 <div class="pircing-photo">
 	<img src="images/pircingfoto.png">
 </div>
@@ -145,7 +320,12 @@
 	</div>
 </footer>	
 </div>
-	
+
+<script>
+$(document).ready(function() {
+    $('#example').DataTable();
+} );    
+</script>
 		<script>
 	$(document).ready(function(){
 		/* menu mobilne */
@@ -167,36 +347,6 @@
 			});
 		});
 	</script>
-	<script>
-$('#example').timeliny({
 
-  // or 'desc'
-  order: 'asc',
-
-  // classname for the timeline
-  className: 'timeliny',
-
-  // timeline wrapper
-  wrapper: '<div class="timeliny-wrapper"></div>',
-
-  // boundaries
-  boundaries: 2,
-
-  // animation speed in ms
-  animationSpeed: 250,
-
-  // hides blank years
-  hideBlankYears: true,
-
-  // callbacks
-  onInit: function(currYear) {},
-  onDestroy: function() {},
-  afterLoad: function(currYear) {},
-  onLeave: function(currYear, nextYear) {},
-  afterChange: function(currYear) {},
-  afterResize: function() {}
-
-});
-	</script>
 </body>
 </html>

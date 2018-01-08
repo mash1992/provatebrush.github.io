@@ -22,7 +22,7 @@
 	padding:5px; /* dodajemy margines wewnątrz naszego pola */
 	border-radius:3px; /* dodajemy zaokraglone rogi */
 	border:1px solid #ccc; /* dodajemy obramowanie */
-	margin-bottom:25px; /* dodajemy margines dolny */
+	margin-bottom:2px; /* dodajemy margines dolny */
 	width:245px; /* ustalamy szerokość */
 }
 

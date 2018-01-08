@@ -86,6 +86,9 @@ header {
 }
 //ukrywanie menu
 #main-menu {
+    a {
+        text-decoration: none;
+    }
 	.invisible;
 	@media @phone {
 		.block;
@@ -540,6 +543,28 @@ footer{
 			
 		}
 	}
+    .info-contact{
+        list-style: none;
+    }
+    fb-contact{
+        color: aqua;
+    }
+}
+.socials-contact{
+    li{
+        a{
+            list-style: none;
+            font-size: 40px;
+            margin-right: 20px;
+            .fa-facebook-official{
+                color: #3B5998;
+            }
+            .fa-youtube{
+                color: #c4302b;
+            }
+        }
+
+    }
 }
 
 // pircing
@@ -561,7 +586,14 @@ footer{
 		padding-top: 0px;
 	}
 }
-
+.tab-text{
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;	
+    .spacing(1px);
+}
+.tab-color{
+    color: @akcent;
+}
 // sculpt
 .sculpt{
 	.sculpt-text{

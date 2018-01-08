@@ -305,6 +305,9 @@ header .navigation .logo {
 #main-menu {
   display: none;
 }
+#main-menu a {
+  text-decoration: none;
+}
 @media only screen and (min-width: 768px) {
   #main-menu {
     display: block;
@@ -795,6 +798,23 @@ footer .main-footer .container .patronage a {
   text-decoration: none;
   color: #434343;
 }
+.contact .info-contact {
+  list-style: none;
+}
+.contact fb-contact {
+  color: aqua;
+}
+.socials-contact li a {
+  list-style: none;
+  font-size: 40px;
+  margin-right: 20px;
+}
+.socials-contact li a .fa-facebook-official {
+  color: #3B5998;
+}
+.socials-contact li a .fa-youtube {
+  color: #c4302b;
+}
 .pircing #example {
   width: 100%;
 }
@@ -810,6 +830,14 @@ footer .main-footer .container .patronage a {
 }
 .pircing .pircing-photo {
   padding-top: 0px;
+}
+.tab-text {
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.tab-color {
+  color: #003319;
 }
 .sculpt .sculpt-text h2 {
   font-family: 'Anton', sans-serif;
