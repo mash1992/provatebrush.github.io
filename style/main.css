@@ -782,7 +782,6 @@ footer .main-footer .container .patronage a {
 }
 @media only screen and (min-width: 992px) {
   .contact ul {
-    margin-left: 150px;
     text-decoration: none;
   }
 }
@@ -801,18 +800,18 @@ footer .main-footer .container .patronage a {
 .contact .info-contact {
   list-style: none;
 }
-.contact fb-contact {
-  color: aqua;
+.contact .socials-contact {
+  text-align: center;
 }
-.socials-contact li a {
+.contact .socials-contact li a {
   list-style: none;
   font-size: 40px;
   margin-right: 20px;
 }
-.socials-contact li a .fa-facebook-official {
+.contact .socials-contact li a .fa-facebook-official {
   color: #3B5998;
 }
-.socials-contact li a .fa-youtube {
+.contact .socials-contact li a .fa-youtube {
   color: #c4302b;
 }
 .pircing #example {
@@ -836,8 +835,18 @@ footer .main-footer .container .patronage a {
   font-size: 15px;
   letter-spacing: 1px;
 }
-.tab-color {
+.tab-color-size {
   color: #003319;
+  font-size: 25px;
+}
+.tab-color-lvl1 {
+  color: #215e5d;
+}
+.tab-color-lvl2 {
+  color: #21b95d;
+}
+.tab-color-lvl3 {
+  color: #5575c1;
 }
 .sculpt .sculpt-text h2 {
   font-family: 'Anton', sans-serif;

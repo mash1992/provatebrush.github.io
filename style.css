@@ -5,7 +5,7 @@
         margin:0 auto; /* jeżeli nasz formularz ma ustawioną szerokość wyśrodkowujemy go */
         border-radius:10px; /* zaokrąglamy tło naszego formularza */
 			padding:20px; /* dodajemy margines wewnątrz naszego formularza */
-        margin-top:20px; /* dodajemy margines górny naszego formularza */
+        margin-top:60px; /* dodajemy margines górny naszego formularza */
 }
 
 #formularz label {
