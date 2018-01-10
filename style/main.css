@@ -334,7 +334,7 @@ header .navigation .logo {
   font-size: 15px;
   font-family: 'Anton', sans-serif;
   font-weight: 400;
-  padding: 20px 14px;
+  padding: 15px 8px;
   line-height: 20px;
   transition: all 0.3s ease-in-out;
 }
@@ -343,7 +343,7 @@ header .navigation .logo {
 }
 @media only screen and (min-width: 992px) {
   .menu-container ul li a {
-    padding: 20px 22px;
+    padding: 10px 12px;
   }
 }
 .menu-container ul li i {
